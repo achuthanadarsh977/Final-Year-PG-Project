@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gait-Based Identity Recognition</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>👣 Gait-Based Identity Recognition</h1>
+    <p>Select a GEI (Gait Energy Image) to identify the subject:</p>
+    <input type="file" id="fileInput" accept="image/*"/>
+    
+    <button onclick="predictIdentity()">Identify Person</button>
+
+    <div class="preview-section">
+      <img id="previewImage" src="" alt="GEI Preview"/>
+      <div id="predictionOutput"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

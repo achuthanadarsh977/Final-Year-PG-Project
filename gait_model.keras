@@ -1,0 +1,4 @@
+# app.py
+from tensorflow.keras.models import load_model
+# …
+model = load_model("gait_model.keras")
