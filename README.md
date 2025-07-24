@@ -73,5 +73,5 @@ This project explores gait recognition, a biometric authentication technique tha
 
 ---
 
-## 📂 Project Structure
+
 
